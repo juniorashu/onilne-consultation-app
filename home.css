@@ -1,0 +1,40 @@
+
+ .text {
+    border: solid 2px green;
+    position: relative;
+left: 900px;
+bottom: 500px;
+    width: 250px;
+
+}
+
+.container{
+    border: black solid 2px;
+    width: 900px;
+}
+.img {
+    position: relative;
+     left: 80px;
+    width: 700px;
+height: 500px;
+}
+/* * {
+    background-color:blue;
+} */
+
+.photo {
+    position: relative;
+     left: 200px;
+     display: flexbox;
+      
+    width: 300px;
+}
+/* .mass .photo{
+    border: solid 3px;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 800px;
+    display: flexbox;
+    bottom: 19pc;
+} */

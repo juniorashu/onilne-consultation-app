@@ -1,0 +1,19 @@
+.container{
+    border: solid 4px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 330px;
+    top: 50px;
+    background-color: blanchedalmond;
+}
+.container .form {
+    position: relative;
+    left: 150px;
+}
+h1{
+    color: blue;
+    align-items: center;
+    font-size: 70px;
+
+}

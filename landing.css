@@ -1,0 +1,33 @@
+
+.kco{
+    width: 8000px;
+    height: 800px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/medical_1_v1.jpg);
+    font-family: consolas;
+}
+.h1 {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+     overflow: hidden;
+     transition: 0.2s ;
+
+}
+.h1:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,  0 0 80px #2196f3; 
+
+}
