@@ -1,36 +1,16 @@
-const name = document.getElementById('name')
-const password = document.getElementById('password')
-const form = document.getElementById('form')
-const errorElement = document.getElementById ('error');
 
-
-form .addEventListener('submit', (e) => {
-    let message = []
-    if(name.value === "" || name.value == null) {
-    message.push('Enter your information')
-    } else if
-    (name.value === password.value) {
-        message.push("password valide")
-        
-
-        }else
-        if (name.value ==! password.value) {
-            message.push("password not valide")
-        }
+const button = document.querySelector('button')
+button.addEventListener('click',() => {
  
-    if(password.value.length <=6) {
-        message.push("password must be longer than 6 characters ")
-    }
-    if(password.value.length >=20) {
-       message.push("password must be longer than 20 characters ")
-       
- }
-   if (password.value === "password") {
-       message.push("password cannot be password")
-   }
 
-    if (message.length > 0) {
-       e.preventDefault()
-       errorElement.innerText = message.join(',')
-   }
-      })
+  const input = document.querySelector('.input').value;
+  const inpot = document.querySelector('.inpot').value;
+  const inpit = document.querySelector('.inpit').value;
+  const inpet = document.querySelector('.inpet').value;
+  let h1 = document.querySelector('.img');
+h1.innerHTML = ""
+if ( input=='juniorashu36@gmail.com' && inpot=='658707773' && inpit =='efoulan' && inpet =='1234' )
+window.open('doctor-expirience.html')
+else
+alert('you have enter wrong information some where please check your information')
+})
